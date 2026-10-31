@@ -1029,7 +1029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VIKING_Connectors:FTSH-107-XX-YYY-DV-K"
+		(property "Footprint" "Footprints:FTSH-107-XX-YYY-DV-K"
 			(at 55.88 124.765 0)
 			(hide yes)
 			(show_name no)

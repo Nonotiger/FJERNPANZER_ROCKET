@@ -1649,18 +1649,6 @@
 		(uuid "14bed9da-8e8d-4c4a-9ea8-b5b70dfd2d57")
 	)
 	(junction
-		(at 41.91 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1548262d-c4ce-44f5-9434-616215a1f6bd")
-	)
-	(junction
-		(at 64.77 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18fc6772-7ba6-41e6-aaa7-1bb892fe6225")
-	)
-	(junction
 		(at 51.435 24.765)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1685,10 +1673,22 @@
 		(uuid "2b0a7236-ec9f-493d-87a9-a33f7b75ff06")
 	)
 	(junction
-		(at 144.78 108.585)
+		(at 50.8 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3ff10312-8840-49ab-8f94-687b8704034f")
+		(uuid "325fac50-4c6c-4875-80f7-ff93ea98fb42")
+	)
+	(junction
+		(at 50.8 100.965)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "340f6341-fa55-41bc-815b-7ab07a6d5377")
+	)
+	(junction
+		(at 47.625 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41e1ac9d-5e7c-4072-8f96-509ce580daaa")
 	)
 	(junction
 		(at 139.7 97.79)
@@ -1697,10 +1697,10 @@
 		(uuid "4371140b-9d36-4788-aeff-97510de62f77")
 	)
 	(junction
-		(at 52.705 74.295)
+		(at 64.77 102.235)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "52188a32-6bed-4af0-93f4-f9a9994c274b")
+		(uuid "500b1699-b1e8-424d-a9eb-2551691eae18")
 	)
 	(junction
 		(at 144.78 97.79)
@@ -1719,6 +1719,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d2049be-c549-4764-8be0-dc2f27b5f52b")
+	)
+	(junction
+		(at 39.37 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61f82717-f68a-43ad-aa3c-03ba17ecd1bc")
 	)
 	(junction
 		(at 86.36 137.16)
@@ -1763,6 +1769,12 @@
 		(uuid "a0145f2e-08f6-4897-bb37-39bb7ecaaa45")
 	)
 	(junction
+		(at 172.085 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a20ac990-7326-461a-8315-9b971ea3228a")
+	)
+	(junction
 		(at 52.705 37.465)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1773,12 +1785,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7b91ecd-61b0-4dea-a4bb-47e1ecef3158")
-	)
-	(junction
-		(at 142.24 141.605)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c313b5b0-e24c-40ad-96f1-1ceba6c1bbd5")
 	)
 	(junction
 		(at 52.705 26.67)
@@ -1810,16 +1816,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 108.585) (xy 146.05 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0142193d-a9bc-4258-8cd4-f06ea32f239a")
-	)
-	(wire
-		(pts
 			(xy 58.42 165.1) (xy 59.69 165.1)
 		)
 		(stroke
@@ -1830,6 +1826,16 @@
 	)
 	(wire
 		(pts
+			(xy 42.545 99.06) (xy 42.545 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024c1043-f2f9-4319-9054-195d92d1d233")
+	)
+	(wire
+		(pts
 			(xy 86.36 137.16) (xy 82.55 137.16)
 		)
 		(stroke
@@ -1837,6 +1843,16 @@
 			(type default)
 		)
 		(uuid "074a1dce-f3ca-4c45-a1c2-546fd2ec7dc9")
+	)
+	(wire
+		(pts
+			(xy 42.545 92.71) (xy 50.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cebcc0-7316-48d0-8dc5-ac07a81ce28b")
 	)
 	(wire
 		(pts
@@ -1880,7 +1896,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 74.295) (xy 52.705 74.93)
+			(xy 71.755 102.235) (xy 64.77 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e4fbec-fa50-4f46-ac1b-39287509652e")
+	)
+	(wire
+		(pts
+			(xy 52.705 73.025) (xy 52.705 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1920,6 +1946,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 102.235) (xy 64.77 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b06952-dc5d-4f1c-9f00-1407635fc224")
+	)
+	(wire
+		(pts
 			(xy 50.8 92.71) (xy 50.8 93.98)
 		)
 		(stroke
@@ -1947,16 +1983,6 @@
 			(type default)
 		)
 		(uuid "2fefbe2d-0bee-4aea-accf-189b989e8ec9")
-	)
-	(wire
-		(pts
-			(xy 41.91 137.16) (xy 41.91 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33437c8b-5298-46b5-989b-803cfc94f8c1")
 	)
 	(wire
 		(pts
@@ -2010,16 +2036,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 102.87) (xy 64.77 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "404312d7-89ae-4ef7-bf81-3c8543f214f6")
-	)
-	(wire
-		(pts
 			(xy 50.165 26.67) (xy 50.165 37.465)
 		)
 		(stroke
@@ -2037,6 +2053,16 @@
 			(type default)
 		)
 		(uuid "512adfdf-cd67-4921-838b-b802672fdbd2")
+	)
+	(wire
+		(pts
+			(xy 42.545 100.965) (xy 50.8 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad8b234-63ac-441a-a114-e31788658bf3")
 	)
 	(wire
 		(pts
@@ -2100,6 +2126,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 26.67) (xy 39.37 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6456008e-2ba8-4c99-9e08-8f110dc3fb8e")
+	)
+	(wire
+		(pts
 			(xy 62.865 48.895) (xy 66.675 48.895)
 		)
 		(stroke
@@ -2117,6 +2153,16 @@
 			(type default)
 		)
 		(uuid "6a891244-7758-4eaa-a053-6e90e1f48798")
+	)
+	(wire
+		(pts
+			(xy 42.545 92.71) (xy 42.545 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c775a33-9827-4a23-9d9f-aab76c07d67f")
 	)
 	(wire
 		(pts
@@ -2140,7 +2186,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 139.7) (xy 142.24 141.605)
+			(xy 142.24 139.7) (xy 142.24 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2190,16 +2236,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 97.79) (xy 144.78 108.585)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aa43e55-62dc-4414-857d-1dbdc39773fa")
-	)
-	(wire
-		(pts
 			(xy 51.435 24.765) (xy 50.165 24.765)
 		)
 		(stroke
@@ -2210,13 +2246,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 108.585) (xy 144.78 109.22)
+			(xy 144.78 97.79) (xy 144.78 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ef7536c-234f-4888-84d7-3e71299a3250")
+	)
+	(wire
+		(pts
+			(xy 39.37 33.655) (xy 39.37 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fde0fa4-8e59-48dd-8184-047be56b1f97")
 	)
 	(wire
 		(pts
@@ -2350,7 +2396,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 104.14) (xy 64.77 102.87)
+			(xy 64.77 99.06) (xy 64.77 102.235)
 		)
 		(stroke
 			(width 0)
@@ -2390,13 +2436,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 74.295) (xy 52.705 74.295)
+			(xy 31.115 26.67) (xy 39.37 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ed75509-2583-41aa-b61d-7db158a5c828")
+		(uuid "a091ce95-7408-4c0f-988f-902dcb728dd9")
 	)
 	(wire
 		(pts
@@ -2427,16 +2473,6 @@
 			(type default)
 		)
 		(uuid "a4ad0928-383b-47e0-9899-aff1db732c5f")
-	)
-	(wire
-		(pts
-			(xy 144.78 108.585) (xy 146.05 108.585)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4dc683c-21c5-46b7-bd0d-90caef184521")
 	)
 	(wire
 		(pts
@@ -2500,16 +2536,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 111.76) (xy 150.495 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab4d9f1b-8e95-4ee7-8745-b7722b9b4d93")
-	)
-	(wire
-		(pts
 			(xy 62.23 104.14) (xy 62.23 99.06)
 		)
 		(stroke
@@ -2517,16 +2543,6 @@
 			(type default)
 		)
 		(uuid "af608a2f-16ee-4256-8144-6fa8a6775a80")
-	)
-	(wire
-		(pts
-			(xy 52.705 73.025) (xy 52.705 74.295)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b018119a-b309-4634-91d2-36ab38d5a4b4")
 	)
 	(wire
 		(pts
@@ -2550,6 +2566,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 129.54) (xy 175.26 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71e34af-39bc-4b5c-be7b-71d322a4f642")
+	)
+	(wire
+		(pts
 			(xy 54.61 100.965) (xy 54.61 102.87)
 		)
 		(stroke
@@ -2570,6 +2596,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.085 129.54) (xy 172.085 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b811f62f-86ab-4d6a-9fc4-bb0e2bdd31b8")
+	)
+	(wire
+		(pts
 			(xy 59.055 99.06) (xy 59.055 100.965)
 		)
 		(stroke
@@ -2577,6 +2613,16 @@
 			(type default)
 		)
 		(uuid "bacb2bd7-8992-47eb-948a-05fffe12e67f")
+	)
+	(wire
+		(pts
+			(xy 31.115 26.67) (xy 31.115 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd686242-e178-4e3d-9fb4-0a25cda82647")
 	)
 	(wire
 		(pts
@@ -2597,6 +2643,16 @@
 			(type default)
 		)
 		(uuid "c0d309da-f413-4636-86d8-6153efd49e0d")
+	)
+	(wire
+		(pts
+			(xy 172.085 129.54) (xy 175.26 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66f6501-77b2-4f3d-a2ff-c73995f516a4")
 	)
 	(wire
 		(pts
@@ -2640,7 +2696,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.085 127.635) (xy 172.085 132.08)
+			(xy 172.085 127.635) (xy 172.085 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2670,23 +2726,23 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 139.7) (xy 41.91 140.97)
+			(xy 39.37 26.67) (xy 47.625 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1067193-6bcb-4d96-ad9e-38fc49f19bca")
+	)
+	(wire
+		(pts
+			(xy 41.91 137.16) (xy 41.91 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d205062b-9667-4518-9466-7a7f657ff908")
-	)
-	(wire
-		(pts
-			(xy 147.32 141.605) (xy 142.24 141.605)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d370f90d-e532-4501-ae00-8eb7e6345d9c")
 	)
 	(wire
 		(pts
@@ -2730,16 +2786,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 102.87) (xy 64.77 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da572a61-8443-4ac5-87f7-e1fc793878ac")
-	)
-	(wire
-		(pts
 			(xy 59.055 92.71) (xy 59.055 93.98)
 		)
 		(stroke
@@ -2757,16 +2803,6 @@
 			(type default)
 		)
 		(uuid "dcda6cf2-1278-4341-8f55-e9f7e9b43a80")
-	)
-	(wire
-		(pts
-			(xy 142.24 141.605) (xy 142.24 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0d7f4ff-f868-47cc-93ee-74e5bed41ae2")
 	)
 	(wire
 		(pts
@@ -2807,6 +2843,16 @@
 			(type default)
 		)
 		(uuid "ecf6c7cf-2c98-473f-8e60-6e9920103f96")
+	)
+	(wire
+		(pts
+			(xy 175.26 136.525) (xy 175.26 137.795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e4bc54-feeb-48b0-9ccf-fc80613526d6")
 	)
 	(wire
 		(pts
@@ -3124,7 +3170,7 @@
 		(dnp no)
 		(uuid "1ef81bfe-79b7-4de9-85fb-1ef8d0b34c0b")
 		(property "Reference" "C14"
-			(at 39.37 29.21 0)
+			(at 41.91 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3135,7 +3181,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 39.37 31.75 0)
+			(at 41.91 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3145,7 +3191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 47.625 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -3266,6 +3312,165 @@
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 34.925 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "356cadad-adf1-48a3-820a-8c80af983622")
+		(property "Reference" "#PWR037"
+			(at 39.37 41.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b4d175e-0115-4e9f-a1ef-40085cf2b7f1")
+		)
+		(instances
+			(project "Prototype_Raket"
+				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 42.545 96.52 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3634401e-a87e-4a61-bc67-cb07b7aa4693")
+		(property "Reference" "C48"
+			(at 41.275 94.615 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 41.275 97.155 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 42.545 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 42.545 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 42.545 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43c9b8b9-8f7e-4511-9213-6bc298c23886")
+		)
+		(pin "2"
+			(uuid "e63e21e8-e176-444b-92b4-63842e3e4610")
+		)
+		(instances
+			(project "Prototype_Raket"
+				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -3540,162 +3745,6 @@
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
 					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 150.495 111.76 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f8a9030-d2d6-403a-92c4-9aa61198fc3b")
-		(property "Reference" "TP13"
-			(at 157.48 111.76 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 154.305 109.855 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 150.495 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 150.495 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 150.495 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ccb3606-2b2e-4814-9c6c-f56a3d034c8d")
-		)
-		(instances
-			(project "Prototype_Raket"
-				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 49.53 74.295 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "608216bb-64cc-4fb5-a6c7-bc59f0ed29e8")
-		(property "Reference" "TP16"
-			(at 43.18 75.565 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 46.355 77.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 49.53 69.215 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 69.215 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 49.53 74.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17972d6c-1c1b-44c9-86ed-e816f394dc49")
-		)
-		(instances
-			(project "Prototype_Raket"
-				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
-					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -4144,7 +4193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 55.245 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -4187,6 +4236,87 @@
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 31.115 31.115 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a4c3f98-b782-42b7-a846-4f5fdd2c767a")
+		(property "Reference" "C49"
+			(at 22.86 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 22.86 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 31.115 31.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.115 31.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 31.115 31.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a91a63fa-41ea-4d30-bb22-fc689986608c")
+		)
+		(pin "2"
+			(uuid "131f2f73-6a44-41e0-ac7f-852e99271da7")
+		)
+		(instances
+			(project "Prototype_Raket"
+				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -4610,8 +4740,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 41.91 139.7 90)
+		(lib_id "power:GND")
+		(at 175.26 137.795 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4619,31 +4749,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "849c8adb-0e4f-4da7-b9e0-e3539171dbe0")
-		(property "Reference" "TP10"
-			(at 35.56 140.97 90)
+		(uuid "8fe347bf-b99e-4688-992b-72125968dbd3")
+		(property "Reference" "#PWR086"
+			(at 175.26 144.145 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 38.735 142.875 90)
+		(property "Value" "GND"
+			(at 179.07 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 41.91 134.62 0)
+		(property "Footprint" ""
+			(at 175.26 137.795 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4654,7 +4783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 134.62 0)
+			(at 175.26 137.795 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4664,8 +4793,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 41.91 139.7 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 137.795 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4676,12 +4805,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce937696-e68f-49bb-979b-7ab3349c4657")
+			(uuid "4a178f9e-758f-4342-ae32-195cb07f4169")
 		)
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
-					(reference "TP10")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -4720,7 +4849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 135.89 102.235 0)
 			(hide yes)
 			(show_name no)
@@ -4763,6 +4892,87 @@
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 39.37 31.115 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98378494-3a3d-4f67-980f-cee095fbb55b")
+		(property "Reference" "C39"
+			(at 31.115 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 31.115 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 39.37 31.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 31.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 31.115 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "edd83155-b4da-4702-a243-aa4875b1232b")
+		)
+		(pin "2"
+			(uuid "6354441b-9f0e-432a-ba80-66cc440d4eea")
+		)
+		(instances
+			(project "Prototype_Raket"
+				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -4847,84 +5057,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 66.675 102.87 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a62a09d3-149e-4c3f-9efd-fa205bea57ed")
-		(property "Reference" "TP11"
-			(at 73.025 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 69.85 99.695 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 66.675 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.675 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 66.675 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0509f9d2-f3dd-4bab-93d6-c3a67e475d89")
-		)
-		(instances
-			(project "Prototype_Raket"
-				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 147.955 102.235 0)
 		(unit 1)
@@ -4957,7 +5089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 147.955 102.235 0)
 			(hide yes)
 			(show_name no)
@@ -5083,6 +5215,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.755 102.235 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afacaf52-5221-4231-820a-22e4e6fc6ad4")
+		(property "Reference" "TP10"
+			(at 78.105 100.965 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 74.93 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 71.755 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.755 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0479e9a-d7f4-4d59-a417-7e8012d6c388")
+		)
+		(instances
+			(project "Prototype_Raket"
+				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 59.055 96.52 0)
 		(mirror y)
@@ -5116,7 +5326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 59.055 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5275,7 +5485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 50.8 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5558,8 +5768,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 147.32 141.605 270)
+		(lib_id "power:GND")
+		(at 31.115 34.925 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5567,31 +5777,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "df6c289e-fd59-4338-8603-7395777b628d")
-		(property "Reference" "TP12"
-			(at 153.67 140.335 90)
+		(uuid "d98bf189-866d-4f76-ac88-37c1437a1092")
+		(property "Reference" "#PWR038"
+			(at 31.115 41.275 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 150.495 138.43 90)
+		(property "Value" "GND"
+			(at 24.765 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 147.32 146.685 0)
+		(property "Footprint" ""
+			(at 31.115 34.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5602,7 +5811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 146.685 0)
+			(at 31.115 34.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5612,8 +5821,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 147.32 141.605 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.115 34.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5624,12 +5833,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "71f4892a-f7dc-4b4a-8ba0-6b10603eea3b")
+			(uuid "a6e70d13-eb52-4ce9-9e2c-562053563cd2")
 		)
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
-					(reference "TP12")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 175.26 133.985 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de6e405e-0aad-42f4-b194-e7ab76800d70")
+		(property "Reference" "C46"
+			(at 179.705 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 179.705 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 175.26 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 175.26 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48cd57ab-8619-4aa0-b92c-1d549f3d1f90")
+		)
+		(pin "2"
+			(uuid "8bd8d165-4918-4ecc-ab91-97ec4575745a")
+		)
+		(instances
+			(project "Prototype_Raket"
+				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/e988b83e-b0a5-48a0-b71f-c5abdf0d6e10"
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -5814,7 +6104,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.275 36.83 0)
+			(at 43.815 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
