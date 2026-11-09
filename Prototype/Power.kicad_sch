@@ -2814,7 +2814,7 @@
 	)
 	(rectangle
 		(start 98.425 112.395)
-		(end 126.365 156.845)
+		(end 126.365 158.75)
 		(stroke
 			(width 0)
 			(type default)
@@ -2876,7 +2876,7 @@
 	)
 	(text "V_f = 2V8\nR_f = (3V3 - V_f) / 1mA = ~510R\nR_f = (3V3 - V_f) / 1mA = ~2K2"
 		(exclude_from_sim no)
-		(at 98.425 115.697 0)
+		(at 99.06 155.575 0)
 		(effects
 			(font
 				(size 1.016 1.016)

@@ -134,6 +134,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -3405,6 +3582,18 @@
 		(uuid "4f83d3b3-8694-43ec-8a21-891b5e0e455d")
 	)
 	(rectangle
+		(start 200.66 12.7)
+		(end 240.03 57.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6a5127ac-4f13-493b-8fb9-6d8e49ff9c98")
+	)
+	(rectangle
 		(start 12.7 12.7)
 		(end 198.755 173.355)
 		(stroke
@@ -3425,6 +3614,16 @@
 			)
 		)
 		(uuid "0165e339-36bd-482c-9743-cc58cae03908")
+	)
+	(text "Buzzer"
+		(exclude_from_sim no)
+		(at 205.74 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "11328152-3d7f-4afc-9627-648fd506e14e")
 	)
 	(text "19\n"
 		(exclude_from_sim no)
@@ -3546,6 +3745,16 @@
 			(justify right)
 		)
 		(uuid "c6f0843e-d8b6-4994-a3ad-4e1e7cdbbb5c")
+	)
+	(text "Find Footprint"
+		(exclude_from_sim no)
+		(at 224.79 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e0d732d1-31a9-425c-a3c6-53b319a543c5")
 	)
 	(junction
 		(at 65.405 51.435)
@@ -3770,10 +3979,6 @@
 	(no_connect
 		(at 76.2 131.445)
 		(uuid "e81b3a3e-bd9e-410d-9402-4ed4ea9fa2d0")
-	)
-	(no_connect
-		(at 116.84 144.145)
-		(uuid "fcdf40bf-d4ae-4769-8e79-5a54033f821f")
 	)
 	(wire
 		(pts
@@ -4227,6 +4432,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 144.145) (xy 137.16 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c41ba4-3d3a-463b-a6e0-e45cacc01db9")
+	)
+	(wire
+		(pts
 			(xy 64.77 133.985) (xy 76.2 133.985)
 		)
 		(stroke
@@ -4344,6 +4559,16 @@
 			(type default)
 		)
 		(uuid "5bf0b6f3-657f-4d58-8fb5-96f513fced8d")
+	)
+	(wire
+		(pts
+			(xy 213.995 36.195) (xy 221.615 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2604a8-edb4-4457-abf6-541497e2e11a")
 	)
 	(wire
 		(pts
@@ -4917,6 +5142,16 @@
 	)
 	(wire
 		(pts
+			(xy 221.615 45.72) (xy 221.615 41.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d810ced9-bbd5-47b1-a517-fe05880b5fcb")
+	)
+	(wire
+		(pts
 			(xy 62.23 126.365) (xy 76.2 126.365)
 		)
 		(stroke
@@ -5205,6 +5440,16 @@
 		)
 		(uuid "1a56217c-ab0a-4ca7-b2b5-bbae594f0087")
 	)
+	(label "Buzzer"
+		(at 213.995 36.195 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "206a4066-ed92-4df5-84d3-ae3e2b5160c3")
+	)
 	(label "OSC32_IN"
 		(at 27.305 193.04 0)
 		(effects
@@ -5234,6 +5479,16 @@
 			(justify left bottom)
 		)
 		(uuid "5057c864-f28f-465c-ab70-8ed29aca238b")
+	)
+	(label "Buzzer"
+		(at 137.16 144.145 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b7f3c68-836e-4ea9-94c1-4f0839eea287")
 	)
 	(label "OSC32_OUT"
 		(at 64.77 136.525 0)
@@ -7153,6 +7408,166 @@
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/0c11ced9-d1f5-4835-9897-2e31df4fd585"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 221.615 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ebdb336-6dd8-4341-b9f7-c44b94f09a99")
+		(property "Reference" "#PWR0111"
+			(at 221.615 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.695 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 221.615 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 221.615 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 221.615 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5aea24b2-f9df-4b44-8467-e12788689793")
+		)
+		(instances
+			(project "Prototype_Raket"
+				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/0c11ced9-d1f5-4835-9897-2e31df4fd585"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Buzzer")
+		(at 224.155 38.735 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "704dfdfb-f50a-4c3b-bcac-d4a7775efcae")
+		(property "Reference" "BZ1"
+			(at 227.965 37.4649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 227.965 40.0049 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 36.195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 224.155 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0276d1e6-9d38-47ed-8771-0b5a0248291e")
+		)
+		(pin "2"
+			(uuid "d192e5df-8442-46ed-aa2d-5f680015bc57")
+		)
+		(instances
+			(project "Prototype_Raket"
+				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/0c11ced9-d1f5-4835-9897-2e31df4fd585"
+					(reference "BZ1")
 					(unit 1)
 				)
 			)

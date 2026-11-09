@@ -46959,19 +46959,6 @@
 		)
 		(uuid "7c05aa27-1312-4f88-a94a-435980924216")
 	)
-	(gr_text "Optimalt skift til 0402\n"
-		(at 82.296 125.8316 0)
-		(layer "F.Cu")
-		(uuid "fb0cfb9a-e167-48f5-ae25-706c559f2c17")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "FJERNPANZER"
 		(at 127.0508 25.5016 270)
 		(layer "F.SilkS")
