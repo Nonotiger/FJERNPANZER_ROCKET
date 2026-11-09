@@ -2872,7 +2872,7 @@
 	)
 	(text "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(exclude_from_sim no)
-		(at 36.83 141.605 0)
+		(at 44.45 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
