@@ -6,4 +6,6 @@
 	(lib (name "DM3AT-SF-PEJM5_41_") (type "KiCad") (uri "${KIPRJMOD}/Symbols/DM3AT-SF-PEJM5_41_.kicad_sym") (options "") (descr ""))
 	(lib (name "CC1200RHBR") (type "KiCad") (uri "${KIPRJMOD}/Symbols/CC1200RHBR.kicad_sym") (options "") (descr ""))
 	(lib (name "U_FL-R-SMT-1_10_") (type "KiCad") (uri "${KIPRJMOD}/Symbols/U_FL-R-SMT-1_10_.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS56637RPAR") (type "KiCad") (uri "${KIPRJMOD}/Symbols/TPS56637RPAR.kicad_sym") (options "") (descr ""))
+	(lib (name "TSX393IDT") (type "KiCad") (uri "${KIPRJMOD}/Symbols/TSX393IDT.kicad_sym") (options "") (descr ""))
 )

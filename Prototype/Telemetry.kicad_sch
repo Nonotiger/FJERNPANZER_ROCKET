@@ -4,7 +4,199 @@
 	(generator_version "10.0")
 	(uuid "7c8267ed-2688-4a39-bbc0-d712d1071376")
 	(paper "A4")
+	(title_block
+		(title "IGNIS-FVD")
+		(date "2026-11-09")
+		(rev "Mathias Bengaard")
+		(company "FJERNPANZER")
+	)
 	(lib_symbols
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Micro_SD_Card_Det_Hirose_DM3AT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2095,198 +2287,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "U_FL-R-SMT-1_10_:U.FL-R-SMT-1_10_"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 16.51 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "U.FL-R-SMT-1_10_"
-				(at 16.51 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "U.FL-R-SMT-1(10)"
-				(at 16.51 -92.38 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.hirose.com/product/document?clcode=CL0331-0472-2-10&productname=U.FL-R-SMT-1(10)&series=U.FL&documenttype=2DDrawing&lang=en&documentid=0000940684"
-				(at 16.51 -192.38 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "UFL SMT PCB receptable,DC-6GHz Hirose Straight 50 Surface Mount UFL Connector, Receptacle, Solder Termination Coaxial"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" ""
-				(at 16.51 -392.38 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "798-U.FL-R-SMT-110"
-				(at 16.51 -492.38 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/U.FL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D"
-				(at 16.51 -592.38 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Hirose"
-				(at 16.51 -692.38 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "U.FL-R-SMT-1(10)"
-				(at 16.51 -792.38 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "U.FL-R-SMT-1_10__1_1"
-				(rectangle
-					(start 5.08 5.08)
-					(end 15.24 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 10.16 270)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "W25Q128JVSIQ_TR:W25Q128JVSIQ_TR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2890,16 +2890,6 @@
 		)
 		(uuid "72d80112-a52f-4597-a759-a4fe51670734")
 	)
-	(text "Maybe skip"
-		(exclude_from_sim no)
-		(at 126.365 18.415 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "757c1694-f511-4de3-ac56-80334509fab0")
-	)
 	(text "Flash"
 		(exclude_from_sim no)
 		(at 85.09 18.415 0)
@@ -3225,12 +3215,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8de90cb-163b-4963-867c-31b624c5bdc6")
-	)
-	(junction
-		(at 144.145 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d022c423-4fe0-4b57-8427-ebda545dcfb7")
 	)
 	(junction
 		(at 96.52 80.01)
@@ -3902,16 +3886,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.145 166.37) (xy 144.145 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3598d15c-8c41-473e-a1a7-4add66d80c8d")
-	)
-	(wire
-		(pts
 			(xy 139.7 80.01) (xy 149.225 80.01)
 		)
 		(stroke
@@ -4142,16 +4116,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.985 177.8) (xy 133.985 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "574d9941-981e-4033-b275-7029133325f5")
-	)
-	(wire
-		(pts
 			(xy 123.825 113.03) (xy 123.825 116.84)
 		)
 		(stroke
@@ -4329,16 +4293,6 @@
 			(type default)
 		)
 		(uuid "64b58c66-fdcc-42f5-b56e-9730e0c5c550")
-	)
-	(wire
-		(pts
-			(xy 133.985 187.96) (xy 144.145 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65bb2355-cd67-4ce5-8086-3c6b0619b472")
 	)
 	(wire
 		(pts
@@ -4729,16 +4683,6 @@
 			(type default)
 		)
 		(uuid "87e2c31f-598b-406e-93b2-a4941697df7b")
-	)
-	(wire
-		(pts
-			(xy 144.145 187.96) (xy 144.145 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8800fbb6-c5be-427c-b3a9-aad755354e63")
 	)
 	(wire
 		(pts
@@ -5872,7 +5816,7 @@
 	)
 	(polyline
 		(pts
-			(xy 184.15 165.1) (xy 184.15 63.5)
+			(xy 184.15 164.465) (xy 184.15 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6248,7 +6192,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03f60f48-58d3-4305-9cbe-fd6258d05d76")
-		(property "Reference" "L9"
+		(property "Reference" "LT9"
 			(at 125.73 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6270,7 +6214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 125.73 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6312,7 +6256,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "L9")
+					(reference "LT9")
 					(unit 1)
 				)
 			)
@@ -6349,7 +6293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -6648,7 +6592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a5ee7b8-f633-4339-81c6-59d6961c6204")
-		(property "Reference" "L4"
+		(property "Reference" "LT4"
 			(at 47.625 168.2749 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6670,7 +6614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 49.53 169.545 0)
 			(hide yes)
 			(show_name no)
@@ -6712,7 +6656,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "L4")
+					(reference "LT4")
 					(unit 1)
 				)
 			)
@@ -6730,7 +6674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bcdbee6-5c8e-4182-a1c3-e3bcaa3b0e15")
-		(property "Reference" "C59"
+		(property "Reference" "CTY1"
 			(at 29.21 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6752,7 +6696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 27.305 117.475 0)
 			(hide yes)
 			(show_name no)
@@ -6794,7 +6738,84 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "C59")
+					(reference "CTY1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.225 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e496c09-7a93-43b8-96f1-8a964679671d")
+		(property "Reference" "#PWR089"
+			(at 149.225 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.225 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.225 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.225 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ecac44e-c753-4259-84ed-61263b1a469d")
+		)
+		(instances
+			(project "Prototype_Raket"
+				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -6834,7 +6855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.75 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6993,7 +7014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 39.37 169.545 0)
 			(hide yes)
 			(show_name no)
@@ -7036,6 +7057,99 @@
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
 					(reference "CT19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 149.225 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "137c2d6f-7c59-4d2e-a523-29a893c60618")
+		(property "Reference" "JT5"
+			(at 152.4 165.3931 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W5017"
+			(at 152.4 167.9331 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132291_Vertical"
+			(at 149.225 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.dk/datasheet/3/203/1/W5017.pdf"
+			(at 149.225 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 149.225 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER" "https://www.mouser.dk/en/ProductDetail/Pulse-Electronics/W5017?qs=opBjA1TV903MlSLjKDHfMw%3D%3D&srsltid=AYCX9vKfV4RwyG_aDkNU9c1KICipSgswzoN1RZeNWNEVy0wyDpuolRBW"
+			(at 149.225 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34aeda35-3047-4b80-8294-a2ed866b99bc")
+		)
+		(pin "2"
+			(uuid "f5cb305f-0c70-4cfa-ab1f-e04e05c3bd65")
+		)
+		(instances
+			(project "Prototype_Raket"
+				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
+					(reference "JT5")
 					(unit 1)
 				)
 			)
@@ -7213,7 +7327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fdbe90b-8783-4277-8423-ef46ce1d36e0")
-		(property "Reference" "L7"
+		(property "Reference" "LT7"
 			(at 102.87 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7235,7 +7349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 105.41 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7277,7 +7391,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "L7")
+					(reference "LT7")
 					(unit 1)
 				)
 			)
@@ -7391,7 +7505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 86.995 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -7781,7 +7895,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c6ac5d7-e3a0-4af3-b4f1-1047dbfb78bc")
-		(property "Reference" "L8"
+		(property "Reference" "LT8"
 			(at 92.075 150.495 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7803,7 +7917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 94.615 155.575 0)
 			(hide yes)
 			(show_name no)
@@ -7845,7 +7959,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "L8")
+					(reference "LT8")
 					(unit 1)
 				)
 			)
@@ -7884,7 +7998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 168.275 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8022,8 +8136,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "380018e0-5500-4542-9294-db38878f4e54")
-		(property "Reference" "L2"
-			(at 44.45 159.385 90)
+		(property "Reference" "LT2"
+			(at 44.45 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8033,7 +8147,7 @@
 			)
 		)
 		(property "Value" "15nH"
-			(at 44.45 161.925 90)
+			(at 44.45 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8042,7 +8156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 44.45 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -8084,7 +8198,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "L2")
+					(reference "LT2")
 					(unit 1)
 				)
 			)
@@ -8124,7 +8238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8203,7 +8317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 93.98 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8554,7 +8668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 114.3 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8614,7 +8728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fedaa34-af58-4485-8677-3f8b6672a8a2")
-		(property "Reference" "R16"
+		(property "Reference" "RT16"
 			(at 135.89 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8636,7 +8750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 137.795 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -8678,7 +8792,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "R16")
+					(reference "RT16")
 					(unit 1)
 				)
 			)
@@ -8871,7 +8985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.49 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -8950,7 +9064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.285 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -9032,7 +9146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 114.935 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -9237,84 +9351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 144.145 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59ffb437-7286-4b83-b3e4-4c81ed264262")
-		(property "Reference" "#PWR060"
-			(at 144.145 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.145 193.675 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.145 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.145 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.145 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a8b09a02-8da5-4128-97ec-db85c815d321")
-		)
-		(instances
-			(project "Prototype_Raket"
-				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 149.225 85.09 0)
 		(unit 1)
@@ -9348,7 +9384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.225 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9506,7 +9542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 177.165 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9663,7 +9699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 125.73 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -9745,7 +9781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 142.24 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9824,7 +9860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 86.36 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -9961,7 +9997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80e4f522-4f16-4a72-841d-cf026435000b")
-		(property "Reference" "C61"
+		(property "Reference" "CT23"
 			(at 58.42 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9983,7 +10019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 56.515 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10025,7 +10061,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "C61")
+					(reference "CT23")
 					(unit 1)
 				)
 			)
@@ -10065,7 +10101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.87 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -10310,7 +10346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.65 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10548,7 +10584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 111.125 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10763,7 +10799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abbb0840-9f09-45a6-89d4-28cc21751631")
-		(property "Reference" "C47"
+		(property "Reference" "CT47"
 			(at 57.15 168.2812 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10785,7 +10821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 54.61 169.545 0)
 			(hide yes)
 			(show_name no)
@@ -10827,7 +10863,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "C47")
+					(reference "CT47")
 					(unit 1)
 				)
 			)
@@ -11094,7 +11130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "47uF"
 			(at 64.77 37.4712 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11105,7 +11141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 61.595 36.195 0)
 			(hide yes)
 			(show_name no)
@@ -11242,7 +11278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c04d1474-9984-4cd1-8bf0-c05e7ebe4423")
-		(property "Reference" "L5"
+		(property "Reference" "LT5"
 			(at 52.07 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11264,7 +11300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 54.61 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -11306,7 +11342,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "L5")
+					(reference "LT5")
 					(unit 1)
 				)
 			)
@@ -11324,7 +11360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c094b1ec-b433-4b0e-9b65-4d57f9ec0c9b")
-		(property "Reference" "C58"
+		(property "Reference" "CT30"
 			(at 22.86 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11346,7 +11382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 21.59 117.475 0)
 			(hide yes)
 			(show_name no)
@@ -11388,7 +11424,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "C58")
+					(reference "CT30")
 					(unit 1)
 				)
 			)
@@ -11406,7 +11442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c56a8987-c446-4609-80a1-a3f47ebe2904")
-		(property "Reference" "L6"
+		(property "Reference" "LT6"
 			(at 91.44 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11428,7 +11464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 93.98 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -11470,7 +11506,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "L6")
+					(reference "LT6")
 					(unit 1)
 				)
 			)
@@ -11488,7 +11524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5736236-587c-47ba-9cd8-ef1e5e13c3b4")
-		(property "Reference" "L3"
+		(property "Reference" "LT3"
 			(at 25.4 168.2749 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11510,7 +11546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 27.305 169.545 0)
 			(hide yes)
 			(show_name no)
@@ -11552,7 +11588,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "L3")
+					(reference "LT3")
 					(unit 1)
 				)
 			)
@@ -11669,7 +11705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.6 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12066,7 +12102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 130.175 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12147,7 +12183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 123.825 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12207,7 +12243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6d36a82-df25-4216-a1e0-a7a9218e5db3")
-		(property "Reference" "R18"
+		(property "Reference" "RT14"
 			(at 57.15 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12229,7 +12265,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 56.515 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12271,7 +12307,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "R18")
+					(reference "RT14")
 					(unit 1)
 				)
 			)
@@ -12784,153 +12820,6 @@
 		)
 	)
 	(symbol
-		(lib_id "U_FL-R-SMT-1_10_:U.FL-R-SMT-1_10_")
-		(at 144.145 187.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed4b8c67-4899-4398-8fe7-277fcb63acda")
-		(property "Reference" "J3"
-			(at 147.955 176.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "U.FL-R-SMT-1_10_"
-			(at 147.955 179.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Footprints:U.FL-R-SMT-1_10_"
-			(at 236.525 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.hirose.com/product/document?clcode=CL0331-0472-2-10&productname=U.FL-R-SMT-1(10)&series=U.FL&documenttype=2DDrawing&lang=en&documentid=0000940684"
-			(at 336.525 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "UFL SMT PCB receptable,DC-6GHz Hirose Straight 50 Surface Mount UFL Connector, Receptacle, Solder Termination Coaxial"
-			(at 144.145 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 536.525 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "798-U.FL-R-SMT-110"
-			(at 636.525 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/U.FL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D"
-			(at 736.525 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Hirose"
-			(at 836.525 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "U.FL-R-SMT-1(10)"
-			(at 936.525 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "b247e786-e128-4dd0-a8ca-2a1a486bd51d")
-		)
-		(pin "2"
-			(uuid "4cdcd106-76e3-4dc8-96d7-b8e022070f01")
-		)
-		(pin "3"
-			(uuid "c13ed9ed-9c36-4030-bcd7-0b43afd1e801")
-		)
-		(instances
-			(project "Prototype_Raket"
-				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 132.715 119.38 0)
 		(unit 1)
@@ -12963,7 +12852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.715 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -13023,7 +12912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdb7aad6-7a24-472f-98c9-dca4e395132d")
-		(property "Reference" "C60"
+		(property "Reference" "CTY3"
 			(at 39.37 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13045,7 +12934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 42.545 117.475 0)
 			(hide yes)
 			(show_name no)
@@ -13087,7 +12976,7 @@
 		(instances
 			(project "Prototype_Raket"
 				(path "/a9ce7773-f8b1-447a-8abb-9af6052d1c69/9a10f2ca-76b6-40ab-b68b-4c9ec153c929"
-					(reference "C60")
+					(reference "CTY3")
 					(unit 1)
 				)
 			)
