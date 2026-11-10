@@ -2419,6 +2419,16 @@
 		)
 		(uuid "edd817e8-0d3a-470a-9521-4e16b9ad1712")
 	)
+	(text "Mangler antenne connector"
+		(exclude_from_sim no)
+		(at 167.64 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3ab3ed8-08d9-46c1-ae71-ff067b5a6d0f")
+	)
 	(junction
 		(at 107.95 33.655)
 		(diameter 0)
@@ -2430,6 +2440,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c6eeaa2-6078-469e-b9ea-9182c85b11ef")
+	)
+	(junction
+		(at 149.86 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d070592-ac04-4ed1-8d9a-52097f6bd956")
 	)
 	(junction
 		(at 135.89 95.25)
@@ -2610,12 +2626,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9d435fb-57ce-4f28-93e4-bfc34cf5aba2")
-	)
-	(junction
-		(at 149.86 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eaca3a74-71b3-4da5-8572-202cb48669f6")
 	)
 	(no_connect
 		(at 110.49 55.88)
@@ -3667,7 +3677,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 55.88) (xy 158.115 55.88)
+			(xy 149.86 55.88) (xy 167.64 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3985,6 +3995,16 @@
 		)
 		(uuid "fa63b959-093c-4245-b855-1260ed528405")
 	)
+	(label "Antenna?? HELLOOO???"
+		(at 167.64 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ef7cb39-eb9c-4779-82d6-77dd11e22b0d")
+	)
 	(hierarchical_label "GPS_RX"
 		(shape input)
 		(at 106.045 45.72 180)
@@ -4116,17 +4136,6 @@
 			(justify right)
 		)
 		(uuid "d7e41e60-9351-43b6-80d9-e65ded045cf6")
-	)
-	(hierarchical_label "GPS_ANT"
-		(shape input)
-		(at 158.115 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f36c7b97-0205-4175-8963-2b5bfcc0c49e")
 	)
 	(hierarchical_label "SDA_I2C1"
 		(shape bidirectional)
